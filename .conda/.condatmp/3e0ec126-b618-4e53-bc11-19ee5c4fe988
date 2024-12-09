@@ -1,0 +1,13 @@
+prefix=d:/Documentos/Cursos/5. ANÁLISIS DE DATOS/Data Analyst Tripleten/Sprint 6/Proyecto_sprint_6/vehicles_env_project/.conda/Library
+exec_prefix=d:/Documentos/Cursos/5. ANÁLISIS DE DATOS/Data Analyst Tripleten/Sprint 6/Proyecto_sprint_6/vehicles_env_project/.conda/Library
+libdir=d:/Documentos/Cursos/5. ANÁLISIS DE DATOS/Data Analyst Tripleten/Sprint 6/Proyecto_sprint_6/vehicles_env_project/.conda/Library/lib
+sharedlibdir=d:/Documentos/Cursos/5. ANÁLISIS DE DATOS/Data Analyst Tripleten/Sprint 6/Proyecto_sprint_6/vehicles_env_project/.conda/Library/lib
+includedir=d:/Documentos/Cursos/5. ANÁLISIS DE DATOS/Data Analyst Tripleten/Sprint 6/Proyecto_sprint_6/vehicles_env_project/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

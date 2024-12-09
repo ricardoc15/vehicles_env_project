@@ -1,0 +1,11 @@
+prefix=d:/Documentos/Cursos/5. ANÁLISIS DE DATOS/Data Analyst Tripleten/Sprint 6/Proyecto_sprint_6/vehicles_env_project/.conda/Library 
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Libs: -L"${libdir}" -llibcrypto
+Libs.private: -lcrypt32 -lws2_32
+Cflags: -I"${includedir}"
+Version: 3.0.15 
